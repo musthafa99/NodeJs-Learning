@@ -1,0 +1,24 @@
+Installing Local Package
+	Local Packages are installed in the directory where you run command and they are put under node_modules folder.
+Commands:
+	npm install package - to install a package
+	npm install package -- save - to install a package and make entry on package.json
+	npm install package -- save –dev - to install a package as development package and make entry on package.json
+
+Uninstalling Local Package
+	It will unistall local package
+Commands:
+	npm uninstall package - to uninstall a  package which are installed
+	npm uninstall package -- save - to uninstall a package and delete entry on package.json
+	npm uninstall package -- save –dev - to uninstall a package as development package and delete entry on package.json
+
+Installing Global Package
+		Global Packages are installed in a single place in your system(excatly where depends on our setup) regarldess where you run command
+Commands:
+	npm install package --g - to install a package 
+
+Uninstalling GLobal Package
+	It will unistall Global package
+Commands:
+	npm uninstall package --g - to uninstall a  package which are installed
+we can also use remove,rm,un. 
