@@ -1,0 +1,34 @@
+List Packages
+	The command will show the packages in tree like structure and also shows the packages which are installed. 
+Command 
+	npm list-list all packages
+	npm list --depth 1 -it shows immediate depedencies
+
+
+NPM Versoning:
+	Symmeteric version is specificaiton where version is represented by three numbers.
+for example
+	In this "loadash": "^1.0.0"
+	1- major version number
+	0-minor version number -is incremented when new features
+	0-patch version number -bug or performance then it will incremented
+to install speciic version command
+Command:
+npm install package@version
+
+
+Update packages
+Command 
+	npm update package --save
+
+Npm Pruning:
+ npm prune command is remove additonal files of an package
+Commad
+ npm prune
+
+Shrotcuts
+1.npm init -y -to create package.json to default values
+2.npm i pacakname -S - to install package without using npm install packagename --save.
+3.npm i pacakname -D - to install package without using npm install packagename --dev.
+4.npm -v is used for npm versoning.
+npm -g for Global Package
