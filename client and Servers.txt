@@ -1,0 +1,17 @@
+Client and Servers
+1.what is protocol?
+	A set of Communications rules,that two sides agress to use when communicating.
+2.what is Port?
+	A program running on a comuter can listen for requests sent to particular port number 
+
+Creating a Server:
+	To create a server we need to use nodejs module called HTTP module
+Syntax:
+     http.createServer() 
+
+Buffer:
+	It is temporary storage spot for chunk of data that is beign used transferred one place to another.
+Streams:
+	A stream is a sequence of bytes that is read or write to destination
+
+Readable Streams:
