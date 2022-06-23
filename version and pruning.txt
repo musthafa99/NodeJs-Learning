@@ -12,7 +12,8 @@ for example
 	1- major version number
 	0-minor version number -is incremented when new features
 	0-patch version number -bug or performance then it will incremented
-to install speciic version command
+
+To install speciic version command
 Command:
 npm install package@version
 
