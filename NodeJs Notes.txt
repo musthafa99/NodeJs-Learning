@@ -28,4 +28,14 @@ name();
 
 Global Object:
 	Global Object are the objects that are avaliable in all modules that can be used directly in the application without importing any particular module
-	
+Modules and Requires:
+Module
+	A module is just a file containing some code. 
+Require 
+ using require keyword, we can use module in our code.requir function is the easiest way to include modules that exist in separate files. if we use one fuction ouside of the 
+module then we need use exports keyword.
+
+Exports Keyword:
+	Exports is similiar is public variable that can be used in any module. 
+
+
