@@ -1,0 +1,31 @@
+		NodeJs
+
+1.what is nodejs
+	 nodejs is platform which allow us to run JavaScript on computer or server
+It allows to read, delete and update file and easy to communicate with databse.
+
+2.Why do need to use?
+	It uses JavaScript
+	Very Fast
+	Huge ecosystem of open source packages(npm)
+
+V8 Engine
+
+What is JavaScript Engine?
+	A JavaScript Engine that takes javaScript,and converts into something it understand-Machine Language.
+
+Nodejs is written C++  because V8 engine in written in C++. V8 Engine Created by Google.
+the heart of nodeJs is V8 Engine.
+the V8 engine converts javascript into machine Language.
+
+Function Expression
+
+Syntax:
+	var name=function(){
+		Statements;
+};
+name();
+
+Global Object:
+	Global Object are the objects that are avaliable in all modules that can be used directly in the application without importing any particular module
+	
