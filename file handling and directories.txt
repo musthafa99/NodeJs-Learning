@@ -1,0 +1,32 @@
+Reading and Writing Files
+	Reading and Writing the file in node.js can be done using one of the module called "fs module". A file can  be wriiten in both synchronous and Asynchronous ways.
+
+Synchronous Method:
+	This method is code blocking method which means h=given method will excute the code until its excution is finished.
+Syntax:
+Read:
+	fs.readFileSync(filename,character enconding)
+here,character enconding is generally utf-8
+Write:
+	fs.writeFileSync(filename,content)
+Asynchronous Method:
+	It has a callback Function that is excutes on completion of excution of given method and thus allows to run durni the completion of its excution.
+Syntax:
+Read:
+	fs.readFile(filename,character enconding,Callback fucntion(err,data))
+Write:
+	fs.writeFile(filename,content,function err)
+	
+Delete a File
+	fs.unlink(filename) -used to delete a file.
+
+Creating and Removing Directories
+Synchronus way:
+	fs.mkdirSync(nameofDirectorty)- it will create directory.
+	fs.rmdirSync(nameofDirectorty)- it will delete directory.
+
+
+Asynchrnous way:
+	fs.mkdir(nameofDirectorty,call back Function)-it will create directory.
+
+to delete a directory first we need to unlink a file.
