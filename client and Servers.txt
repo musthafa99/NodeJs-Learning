@@ -12,6 +12,11 @@ Syntax:
 Buffer:
 	It is temporary storage spot for chunk of data that is beign used transferred one place to another.
 Streams:
-	A stream is a sequence of bytes that is read or write to destination
+	A stream are objects that is read data from source or write data to destination
+	
+Readable Streams: allows node js to read data from stream
+Writeable Streams: allows node js to write data from stream
+Duplex: allows can read and write data from stream
 
-Readable Streams:
+Pipes:
+	Pipes can be used to connect multiple streams together. it can connect readstream and writestream.
