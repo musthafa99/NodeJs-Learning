@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Serving Html Page</title>
@@ -8,16 +9,7 @@
         </style>
     </head>
     <body>
+        <h1>Welome to homepage</h1>
         
-        <h1>Name:<%=person%></h1>
-        <h1>Age:<%=data.age%></h1>
-        <h1>Job:<%=data.job%></h1>
-        <h1>Hobbies</h1>
-        <ul>
-            <%data.hobbies.forEach(function(item){%>
-                <li> <%=item%></li>
-
-            <%})%>
-        </ul>
     </body>
 </html>
