@@ -1,0 +1,13 @@
+Introduction to Express
+	Express.js is an web application framework of node.js.It is used for building and desiging web applications quickly and easily.
+	Express  is easy and flexible routing system
+	It integrates with many template engines.
+	It contains a middleware framework.
+
+HTTP Methods
+	GET-used to retrieve information from the server
+	POST-used to send data to the server
+	DELETE-used to delete resource from server
+	PUT-replace the resource at current Url
+	
+
