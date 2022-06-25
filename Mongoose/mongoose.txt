@@ -1,0 +1,21 @@
+Mongoose
+
+1.What is Mongoose?
+	mongoose is essentially a schema based solution to model your application data.
+schema creates key value pairs.
+
+2.What Mongoose Do?.
+	Mongoose creates object reference when interacting with mongoDb.
+
+3.How do we use Mongoose?
+	first,we need to require mongoose module.next we need to creata varible refernce 
+to mongoose schema.
+
+4.how to connect to mongodb database.
+Synatax:
+mongoose.connect('mongodb://localhost:27017/Databasename')
+or
+mongoose.connect('mongodb://username:password@host:port/database');
+
+
+	
