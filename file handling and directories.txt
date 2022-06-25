@@ -2,7 +2,7 @@ Reading and Writing Files
 	Reading and Writing the file in node.js can be done using one of the module called "fs module". A file can  be wriiten in both synchronous and Asynchronous ways.
 
 Synchronous Method:
-	This method is code blocking method which means h=given method will excute the code until its excution is finished.
+	This method is code blocking method which means given method will excute the code until its excution is finished.
 Syntax:
 Read:
 	fs.readFileSync(filename,character enconding)
