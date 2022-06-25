@@ -1,8 +1,8 @@
 Mongoose
 
 1.What is Mongoose?
-	mongoose is essentially a schema based solution to model your application data.
-schema creates key value pairs.
+	mongoose is an Object Data Modeling library for Mongodb and nodeJs
+
 
 2.What Mongoose Do?.
 	Mongoose creates object reference when interacting with mongoDb.
