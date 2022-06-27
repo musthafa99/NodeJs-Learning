@@ -1,7 +1,6 @@
 var fs=require('fs')
-var data='hey ho! let\'s go'
 
-fs.writeFile('ex5.txt',function(err,data){
+fs.writeFile('ex5.txt','hey ho! let\'s go',function(err){
     if(err)
     {
         return console.log(err);
