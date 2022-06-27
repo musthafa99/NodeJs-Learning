@@ -42,17 +42,17 @@ app.post('/book2',function(req,res){
     });
 });
 
-app.put('/book:/id',function(req,res){
+app.put('/book/:id',urlencoderparser,function(req,res){
     Book.findOneAndUpdate({
-        id:req.params.id
+        _id:req.params.id
     },
     {$set:{author: req.body.author}},
     {upsert:true},
     function(err,Book){
         if(err) res.send(err);
         console.log(Book);
-        res.json(Book);
-    })
+        res.send(Book);
+    });
 });
 app.listen(3000);
 console.log("Listening");

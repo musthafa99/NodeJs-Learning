@@ -1,0 +1,5 @@
+Readable Streams: allows node js to read data from stream
+Writeable Streams: allows node js to write data from stream
+Duplex: allows can read and write data from stream
+Pipes:
+	Pipes can be used to connect multiple streams together. it can connect readstream and writestream.

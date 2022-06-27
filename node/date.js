@@ -5,4 +5,4 @@ Server(function(req,res)
 {
     res.write("Current Date And time"+dateTime.CurrentDateTime())
     res.end()
-}).lnoisten(8080)
+}).listen(8080)
