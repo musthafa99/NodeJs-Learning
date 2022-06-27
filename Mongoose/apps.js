@@ -54,5 +54,15 @@ app.put('/book/:id',urlencoderparser,function(req,res){
         res.send(Book);
     });
 });
+
+app.delete('/book/:id',urlencoderparser,function(req,res){
+    Book.findOneAndRemove({
+        _id:req.params.id
+    },function(err,Book){
+        if(err) res.send(err);
+        console.log(Book);
+        res.send(Book);
+    });
+});
 app.listen(3000);
 console.log("Listening");
