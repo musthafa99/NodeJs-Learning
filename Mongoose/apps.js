@@ -41,5 +41,18 @@ app.post('/book2',function(req,res){
         res.json(Book);
     });
 });
+
+app.put('/book:/id',function(req,res){
+    Book.findOneAndUpdate({
+        id:req.params.id
+    },
+    {$set:{author: req.body.author}},
+    {upsert:true},
+    function(err,Book){
+        if(err) res.send(err);
+        console.log(Book);
+        res.json(Book);
+    })
+});
 app.listen(3000);
 console.log("Listening");
